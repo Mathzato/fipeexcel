@@ -1,2 +1,38 @@
 # fipeexcel
 Projeto desenvolvido no SENAI BETIM, inspirado na ideia  do aluno Bruno Gomes
+<h1> FIPEEXCEL</h1>
+
+Uma concessionária de veículos realiza consultas online a tabela
+FIPE(tabela de valores de automóveis) mensalmente. O tempo gasto nessas
+consultas é em média <b>2 horas</b> diárias, pois são consultados cerca de
+400 veículos. Visando solucionar esse problema
+criamos um sistema que consulta os dados online e os armazena em uma
+planilha excel. Utilizando o sistema o <b> tempos gasto na consulta cai para
+em média 5 minutos</b>.
+
+# Requisitos Funcionais do Sistema
+
+RF-001: O sistema deve permitir a busca de informação dos veículos a partir
+de um código e ano de fabricação.
+
+RF-002: O sistema deve gravar os dados  retornados pela
+consulta em um arquivo Excel, os dados que são aramazenados
+são: Código do Veículo, Marca, Modelo, Ano, Preço, Tipo de
+Combustível, Mês de Referência da Consulta.
+
+# Requisitos Não Funcionais
+
+RNF: 001 - O sistema deve salvar o arquivo  em XLSX versão 
+2007 ou superior.
+
+RNF: 002 - Sistema deve ter acesso a internet.
+
+RNF: 003 - O usuário deve ter instalado em seu computador o
+Python na versão 3.7 ou superior.
+
+
+
+
+
+
+https://parallelum.com.br/fipe/api/v2/cars/brands
