@@ -30,9 +30,11 @@ RNF: 002 - Sistema deve ter acesso a internet.
 RNF: 003 - O usuário deve ter instalado em seu computador o
 Python na versão 3.7 ou superior.
 
+# Regra de Negócio
 
-
-
+Regra de Negócio: 001 - Consulta a tabela FIPE. A consulta a tabela FIPE deve 
+ser feita pela código oficial do véculo, todo veículo possui um código,
+gerenciado pela organização que cuida da FIPE. Requisito Funcional - 001.
 
 
 https://parallelum.com.br/fipe/api/v2/cars/brands
