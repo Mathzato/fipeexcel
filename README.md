@@ -40,12 +40,26 @@ gerenciado pela organização que cuida da FIPE. Requisito Funcional - 001.
 # Caso de Uso
 ![uc001](https://user-images.githubusercontent.com/103469667/164120790-fdb51af7-1b7b-4675-bb97-98bf269827de.png)
 
-#Caso de Uso: FIPEEXCEL
+Caso de Uso : Enviar tabela por Email
+#-------------------------------------
+O usuário deve acessar a opção de envio da planilha gerada por e-mail. O ussuário insere o email desejado e
+clica no botão selecionar para  buscar o ralatório em excel. Ele então seleciona o relátorio e clica na opção
+enviar.
+O sistema emite um alerta dizendo que o email com o relatório foi envaiado com sucesso.
 
-Visão Geral:  Gerar Excel com fipe dos veículos: Este sistema gerar  uma tabela fipe dos veículos
-que mostra uma tabela com as descrisãos dos veículos .
- 
-Consultar Fipe: o usuário ele vai ser deparar com uma tabela de consulta fipe  dos veículos que estão localizado na tabela.
+<h3>Caso de Uso: Gerar planilha excel baseado na tabela FIPE</h3>
+#----------------------------------------
+O usuário acessa o sistema e seleciona em caixa de seleção o tipo de
+veículo que ele está buscando(caminhão, carro ou moto),
+deve informar também o ano inicial da busca e o ano final da busca.
+Após o usuário clica no botão gerra planilha e o sistema começa a busca baseado nos 
+parametros informados(Caso de Uso: Consulta FIPE).Após gerar o relatório o sistema deve emitir um alerta
+dizendo que a atividade foi concluída com suscesso. No arquivo Excel devem ser exibidos os 
+seguintes dados: Código Fipe do veículo, nome do veículo, valor, ano e tipo de combustível.
 
-Enviar Tabela por email: E logo em seguida o usuário vai ser deparar no seu email o código  já pronto.
-https://parallelum.com.br/fipe/api/v2/cars/brands
+Caso de Uso : Consuta FIPE
+#----------------------
+O sistema deve realizar uma busca através uma API Web que traz dados oficais da FIPE quais são os veículos
+de acordo com os paramentros selecinados. Esses dados irão compor a planilha do Excel.
+
+
