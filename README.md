@@ -40,6 +40,12 @@ gerenciado pela organização que cuida da FIPE. Requisito Funcional - 001.
 # Caso de Uso
 ![uc001](https://user-images.githubusercontent.com/103469667/164120790-fdb51af7-1b7b-4675-bb97-98bf269827de.png)
 
+#Caso de Uso: FIPEEXCEL
 
+Visão Geral:  Gerar Excel com fipe dos veículos: Este sistema gerar  uma tabela fipe dos veículos
+que mostra uma tabela com as descrisãos dos veículos .
+ 
+Consultar Fipe: o usuário ele vai ser deparar com uma tabela de consulta fipe  dos veículos que estão localizado na tabela.
 
+Enviar Tabela por email: E logo em seguida o usuário vai ser deparar no sue email o código  já pronto.
 https://parallelum.com.br/fipe/api/v2/cars/brands
