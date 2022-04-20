@@ -36,8 +36,9 @@ Regra de Negócio: 001 - Consulta a tabela FIPE. A consulta a tabela FIPE deve
 ser feita pela código oficial do véculo, todo veículo possui um código,
 gerenciado pela organização que cuida da FIPE. Requisito Funcional - 001.
 
+
 # Caso de Uso
-(https://user-images.githubusercontent.com/103469667/164120575-6c859008-a7a3-4e1a-8002-5c6d8fd182b6.png)
+![uc001](https://user-images.githubusercontent.com/103469667/164120790-fdb51af7-1b7b-4675-bb97-98bf269827de.png)
 
 
 
