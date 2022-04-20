@@ -47,5 +47,5 @@ que mostra uma tabela com as descrisãos dos veículos .
  
 Consultar Fipe: o usuário ele vai ser deparar com uma tabela de consulta fipe  dos veículos que estão localizado na tabela.
 
-Enviar Tabela por email: E logo em seguida o usuário vai ser deparar no sue email o código  já pronto.
+Enviar Tabela por email: E logo em seguida o usuário vai ser deparar no seu email o código  já pronto.
 https://parallelum.com.br/fipe/api/v2/cars/brands
