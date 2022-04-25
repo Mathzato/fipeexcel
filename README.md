@@ -57,9 +57,13 @@ parametros informados(Caso de Uso: Consulta FIPE).Após gerar o relatório o sis
 dizendo que a atividade foi concluída com suscesso. No arquivo Excel devem ser exibidos os 
 seguintes dados: Código Fipe do veículo, nome do veículo, valor, ano e tipo de combustível.
 
-Caso de Uso : Consuta FIPE
+<h3>Caso de Uso : Consuta FIPE,<h3>
 #----------------------
 O sistema deve realizar uma busca através uma API Web que traz dados oficais da FIPE quais são os veículos
 de acordo com os paramentros selecinados. Esses dados irão compor a planilha do Excel.
 
+
+
+<h3>Diagrama  de Classe<h3>
+![FIPEXCEL](https://user-images.githubusercontent.com/103469667/165190852-ef766c4f-1b7d-4693-8486-989979eee420.png)
 
