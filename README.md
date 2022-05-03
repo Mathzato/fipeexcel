@@ -42,10 +42,10 @@ gerenciado pela organização que cuida da FIPE. Requisito Funcional - 001.
 
 Caso de Uso : Enviar tabela por Email
 #
-O usuário deve acessar a opção de envio da planilha gerada por e-mail. O ussuário insere o email desejado e
-clica no botão selecionar para  buscar o ralatório em excel. Ele então seleciona o relátorio e clica na opção
+O usuário deve acessar a opção de envio da planilha gerada por e-mail. O usuário insere o email desejado e
+clica no botão selecionar para  buscar o relatório em excel. Ele então seleciona o relátorio e clica na opção
 enviar.
-O sistema emite um alerta dizendo que o email com o relatório foi envaiado com sucesso.
+O sistema emite um alerta dizendo que o email com o relatório foi enviado com sucesso.
 
 <h3>Caso de Uso: Gerar planilha excel baseado na tabela FIPE</h3>
 #
